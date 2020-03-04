@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Muli', sans-serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -15,6 +15,18 @@ body {
     padding-top: 0;
     padding-left: 17rem;
   }
+}
+
+body::-webkit-scrollbar {
+}
+
+body::-webkit-scrollbar-track {
+}
+
+body::-webkit-scrollbar-thumb {
+}
+
+body::-webkit-scrollbar-thumb:hover {
 }
 
 h1,
