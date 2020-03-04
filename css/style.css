@@ -1,0 +1,56 @@
+html{
+    margin: 0;   
+    font-family: 'din-condensed', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #454545;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    background-color: white;
+}
+
+nav img {
+    height: 5vh;
+}
+
+.pageContent{
+    padding: 20px;    
+}
+
+header {
+    transform: translateY(25vh);
+    z-index: 10;
+}
+
+.intro {
+    text-align: center;
+    height: 100%;
+    width: 75vw;
+    background-color: white;
+    transform: translateX(12.5vw);
+    position: static;
+}
