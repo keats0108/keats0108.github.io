@@ -7,7 +7,8 @@
 body {
   font-family: 'Muli', sans-serif;
   padding-top: 54px;
-  color: #868e96;
+  color: #202a30;
+  background-color: #CCDBDC;
 }
 
 @media (min-width: 992px) {
@@ -89,7 +90,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #385DBD;
+  background-color: #00205B;
 }
 
 .dev-icons {
@@ -97,7 +98,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #00205B;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -178,17 +179,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #385DBD !important;
+  background-color: #00205B !important;
 }
 
 .text-primary {
-  color: #385DBD !important;
+  color: #00205B !important;
 }
 
 a {
-  color: #385DBD;
+  color: #00205B;
 }
 
 a:hover, a:focus, a:active {
-  color: #274082;
+  color: #007EA7;
 }
